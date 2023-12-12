@@ -11,15 +11,8 @@ For Training I have used the Resnet-50 model from the model_zoo of the pytorch
 
 Finally the 4 classes for training the model were
 
-masked
-masked-and-sunglasses
-neutral
-sunglasses
-train images directory - FaceFirst\RealWorldOccludedFaces\images
+masked, masked-and-sunglasses, neutral and sunglasses.
 
-video dir - FaceFirst\RealWorldOccludedFaces\test_video
-
-test or prediction images directory - FaceFirst\RealWorldOccludedFaces\test_images
 
 
 At the end of evaluating the trained ResNet-50 architecture model, it is subject to ONNX conversion and quantization as reduction in size and latency of the model while mainitaining the accuracy is a crucial part when it comes to deployment of any model in an edge device. 
